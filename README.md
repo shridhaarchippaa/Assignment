@@ -1,6 +1,6 @@
 # Assignment
 
-A RESTfull API to add, read, update and delete the resource.
+A simple RESTfull API to add, read/view, update and delete the resource.
 
 Curl commands are used to do the CRUD operation.
 
