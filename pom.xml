@@ -11,8 +11,8 @@
 	<groupId>com.springboot</groupId>
 	<artifactId>SpringBootThymeLeafExample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Assignment 2</name>
-	<description>NHS BSA assignment</description>
+	<name>Assignment</name>
+	<description>Test Assignment</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -22,10 +22,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
