@@ -13,4 +13,6 @@ To Update: **curl -X PUT -H "Content-Type: application/json" -d "{\"name\":\"Tes
 
 To delete: **curl -H DELETE http://localhost:8080/assignments/1**
 
-To test for non-existing value: **curl –v http://localhost:8080/assignments/10**, you should see NOT_FOUND (404) error in the verbose output.
+To view for non-existing value: **curl –v http://localhost:8080/assignments/40**, you should see **NOT_FOUND (404)** error in the verbose output.
+
+To update for non-existing value: **curl -v -X PUT -H "Content-Type: application/json" -d "{\"name\":\"Testing\", \"email\":\"test@email.com\", \"skill\":\"Expert\"}" http://localhost:8080/assignments/31**, you should see **NOT_FOUND (404)** error in the verbose output.
